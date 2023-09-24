@@ -74,7 +74,7 @@ const Menu = [
         image: bbq,
         name: "Bar B Que",
         category: "special",
-        price: 100,
+        price:  1000,
     },
     {
         id: 6,
@@ -149,7 +149,7 @@ const Menu = [
     {
         id: 16,
         image: choco,
-        name: "Chocolate Cake",
+        name: "Chocolate",
         category: "cake",
         price: 800,
     },
@@ -163,14 +163,14 @@ const Menu = [
     {
         id: 18,
         image: rw,
-        name: "Red Welvet Cake",
+        name: "Red Welvet",
         category: "cake",
         price: 1500,
     },
     {
         id: 19,
         image: dc,
-        name: "Double Chocolate",
+        name: "Dark Chocolate",
         category: "cake",
         price: 1000,
     },
@@ -184,14 +184,14 @@ const Menu = [
     {
         id: 21,
         image: labesheeren,
-        name: "Lab e Sheereen",
+        name: "Frit Trifle",
         category: "desert",
         price: 300,
     },
     {
         id: 22,
         image: dd,
-        name: "Doodh Dulhari",
+        name: "Dulhari",
         category: "desert",
         price: 300,
     },

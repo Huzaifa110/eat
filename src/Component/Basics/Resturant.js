@@ -3,6 +3,8 @@ import './style.css';
 import Menu from '../menuApi';
 import MenuCard from '../MenuCard';
 import Navbar from './Navbar';
+import Welcome from './Welcome';
+import Thanks from './Thanks';
 
 const uniqueList = [
   ...new Set(
@@ -17,8 +19,6 @@ console.log(uniqueList);
 const Resturant = () => {
 
   const [menuData, setMenuData] = useState(Menu);
-
-  // const [menuList, setMenuList] = useState(uniqueList);
 
   const filterItem = (category) => {
 
@@ -35,8 +35,10 @@ const Resturant = () => {
 
   return (
     <div>
+      <Welcome />
       <Navbar filterItem={filterItem} menuList={uniqueList} />
       <MenuCard menuData={menuData} />
+      <Thanks />
     </div>
   )
 }
